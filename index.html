@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>随机图片跳转</title>
+    <script>
+        // 生成 1~144 的随机整数
+        const randomNum = Math.floor(Math.random() * 144) + 1;
+        // 立即跳转
+        window.location.href = `https://cx-mc-image.netlify.app/${randomNum}.jpg`;
+    </script>
+</head>
+<body>
+    <noscript>
+        <h1>请启用 JavaScript 以正常跳转</h1>
+    </noscript>
+</body>
+</html>
